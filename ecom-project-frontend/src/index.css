@@ -1,0 +1,16 @@
+body.light-theme {
+    background-color: white !important;
+}
+body.dark-theme {
+    background-color: #1f1f1f !important;
+}
+
+:root{
+    /* Remove static background-color to avoid conflicts */
+}
+
+.dark-theme{
+    --root_background: #1f1f1f;}
+    .light-theme{
+        --root_background: white;
+    }
